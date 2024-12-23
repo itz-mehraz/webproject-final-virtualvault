@@ -88,32 +88,104 @@ Explore the live version of the site and admin panel:
 - **Build Tool:** Vite
 
 ---
+
+```markdown
 ## **Installation Guide**
 
-Follow these steps to set up the project locally:
+Follow the steps below to set up the project on your local machine:
 
 ---
 
-### 1. **Clone the Repository**
+### Step 1: Clone the Repository
 
-Start by cloning the project repository to your local machine:
-
-bash
+```bash
 git clone https://github.com/itz-mehraz/webproject-final-digitaldhuniya.git
 cd webproject-final-digitaldhuniya
-2. Install Dependencies
+```
+
+---
+
+### Step 2: Install Dependencies
+
 Install the required PHP and JavaScript dependencies:
 
-bash
-Copy code
+```bash
 composer install
 npm install
-3. Configure the Environment
-Copy the .env.example file and update it with your local environment settings (database credentials, API keys, etc.):
+```
 
-bash
-Copy code
+---
+
+### Step 3: Configure the Environment
+
+Copy the `.env.example` file and rename it to `.env`:
+
+```bash
 cp .env.example .env
+```
+
+Next, open the `.env` file and update the following:
+
+- **Database Configuration** (DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD)
+- **Payment API Keys** (as per your setup)
+
+---
+
+### Step 4: Run Database Migrations
+
+Run the migrations to create the necessary database tables:
+
+```bash
+php artisan migrate
+```
+
+---
+
+### Step 5: Seed the Database (Optional)
+
+Populate the database with sample data:
+
+```bash
+php artisan db:seed
+```
+
+---
+
+### Step 6: Build Frontend Assets
+
+Compile the frontend assets using Vite:
+
+```bash
+npm run dev
+```
+
+---
+
+### Step 7: Serve the Application
+
+Start the development server to view the project in your browser:
+
+```bash
+php artisan serve
+```
+
+Once the server is running, access the application at:
+
+```
+http://localhost:8000
+```
+
+---
+
+🎉 **Congratulations!** Your application is now running locally.
+```
+
+### Why This Stands Out:
+- **Copy-Paste Friendly:** Each code snippet is isolated, making it easy for anyone to copy commands directly.
+- **Professional Structure:** Step numbers, headings, and spacing create a clean and clear layout.
+- **Clear Instructions:** Minimal text for maximum clarity while guiding users.
+
+This format ensures anyone reading or setting up your project can do so effortlessly. Let me know if this fits your needs better!
 After copying, open .env and configure the following:
 
 Database Configuration
