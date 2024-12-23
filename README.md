@@ -157,7 +157,7 @@ Submit a pull request with a detailed explanation.
 License
 This project is licensed under the MIT License.
 
-Thank you for choosing Virtual Vault BD! For inquiries or support, please contact us at support@virtualvaultbd.com.
+Thank you for choosing Virtual Vault BD! For inquiries or support, please contact us at khondokarmehraz2002@gmail.com
 
 vbnet
 Copy code
