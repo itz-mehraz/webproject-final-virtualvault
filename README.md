@@ -89,7 +89,6 @@ Explore the live version of the site and admin panel:
 
 ---
 
-```markdown
 ## **Installation Guide**
 
 Follow the steps below to set up the project on your local machine:
@@ -178,7 +177,7 @@ http://localhost:8000
 ---
 
 🎉 **Congratulations!** Your application is now running locally.
-```
+
 
 ### Why This Stands Out:
 - **Copy-Paste Friendly:** Each code snippet is isolated, making it easy for anyone to copy commands directly.
